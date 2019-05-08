@@ -1,0 +1,1248 @@
+<!DOCTYPE
+
+ html>
+<html lang="en">
+
+<head>
+    <style>
+	.mainBg {
+    background:#65bd77 !important;
+	/*background-image:url('bg.jpg');*/
+    background-repeat: no-repeat;
+     background-size:cover;
+}
+   .image-circle{ 
+    width: 40%;
+    background: #eaeaea;
+	opacity:0.8;
+    padding: 6px;
+    border-radius: 28%;
+}
+.logo-span{
+margin-left: 3px;
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+}
+#mobile-name{
+		display:none;
+	}
+.padding-40{
+padding-left:40px;
+padding-right:40px;
+}
+.m-t-30{
+margin-top:30px;
+}
+.m-b-30{
+margin-bottom:30px;
+}
+.img-exp{
+width:50%;
+}
+.font-josefin{
+font-family: 'Josefin Sans', sans-serif;
+font-bold;
+}
+.color-green{
+color:#65B378 !important;
+}
+.color-yellow{
+color:#ffbc1a;
+}
+.spacer-mid{
+height:20px;
+}
+.m-t-60{
+margin-top:60px;
+}
+.justify{
+text-align:justify;
+}
+.text-dark{
+color:#2e3e4e !important;
+}
+.label-span{
+padding: 5px;
+    background: #f0ad4e;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.font-amatic-logo{
+font-family:"Amatic SC", cursive;
+	font-size:26px !important;
+	font-weight:bold;
+	margin-left:30px;
+}
+.p-10{
+padding:10px;
+}
+.nav-float{
+    position: fixed !important;
+    width: 100%;
+	opacity:0.9;
+
+}
+.mylogo{
+    width: 23px;
+    float: left;
+    position: relative;
+    top: 1px;
+}
+.nav-active {
+    text-decoration: none;
+    background-color: #eee !important;
+	color:#2e3e4e !important;
+}
+#particles-js{
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;
+}
+#stats{
+display:none;
+}
+.z-index-3{
+ z-index:3;
+ }
+	</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mittu Anand | Online Resume</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Work+Sans:400,300,600,400italic,700|Amatic+SC:400,700&amp;subset=latin-ext' rel='stylesheet' type='text/css'>
+    
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+	<!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <!-- MetisMenu CSS -->
+    <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="vendor/morrisjs/morris.css" rel="stylesheet">
+<link href="vendor/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="mainBg">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top nav-float" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-dark" href=""><img src="mylogo.png" class="mylogo"/><span class="logo-span">mittu<span class="color-green">Anand</span>.com</span></a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right font-amatic-s menu-nav">
+               
+                
+                <!-- /.dropdown -->
+                <li class="home">
+                    <a href="#home" class="nav-active">
+                        <i class="fa fa-home fa-fw"></i>Home</i>
+                    </a>
+                 
+                   
+                </li>
+				<li  class="about">
+                    <a href="#about">
+                        <i class="fa fa-user fa-fw"></i>About/Cover</i>
+                    </a>
+                 
+                   
+                </li>
+				 <li  class="skills">
+                    <a href="#skills">
+                        <i class="fa fa-shield fa-fw"></i>Skills</i>
+                    </a>
+                 
+                   
+                </li>
+				 <li  class="experience">
+                    <a href="#experience">
+                        <i class="fa fa-calendar-plus-o fa-fw"></i>Work experience</i>
+                    </a>
+                 
+                   
+                </li>
+				<li  class="academics">
+                    <a href="#academics">
+                        <i class="fa fa-graduation-cap fa-fw"></i>Academics</i>
+                    </a>
+                 
+                   
+                </li>
+				 <li  class="contact">
+                    <a href="#contact">
+                        <i class="fa fa-envelope fa-fw"></i>Contact</i>
+                    </a>
+                 
+                   
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+        </nav>
+
+        <div id="page-wrapper" class="mainBg homeWrapper">
+		
+		<div class="spacer"></div>
+		<div class="row m-t-n m-b-n">
+		<div id="particles-js"></div>
+				<div class="col-lg-5">
+		<div class="col-sm-12 text-center">
+		<img src="mittu.jpg" class="image-circle"/>
+			<div class="type-wrap" id="mobile-name">
+    
+      <h2 class="font-amatic">I'm<strong class="text-reds"> Mittu Anand.</strong></h2>
+	  <h4 class="font-amatic">an <strong class="text-reds">Information Technology</strong> engineer.</h4>
+    
+	
+  </div>
+		</div>
+		<div class="col-sm-12">
+		<div class="panel-body font-amatic-s">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-calendar-times-o fa-fw color-green"></i> Total Experience
+                                    <span class="pull-right text-muted small">6 plus years
+                                    </span>
+                                </a>
+                               
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-building fa-fw text-dark"></i> Works at
+                                    <span class="pull-right text-muted small">Infosys Ltd.
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-map-marker fa-fw color-green"></i> Current Location
+                                    <span class="pull-right text-muted small">New Zealand
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-envelope fa-fw text-dark"></i> Email
+                                    <span class="pull-right text-muted small">mittu.k.anand@gmail.com
+                                    </span>
+                                </a>
+								 <a href="#" class="list-group-item">
+                                    <i class="fa fa-phone-square fa-fw color-green"></i> Phone
+                                    <span class="pull-right text-muted small">022 3011452
+                                    </span>
+                                </a>
+                            </div>
+                          
+                        </div>
+						
+						</div>
+		
+		
+                    <!--<div class="panel panel-default">
+                        <div class="panel-heading text-center">
+                            <i class="fa fa-info fa-fw"></i> What we do?
+                        </div>
+                        
+                        <div class="panel-body">
+                           
+                        </div>
+                    </div>-->
+              
+                </div> 
+			<div class="col-lg-7 text-center z-index-3">
+			
+		        <!--<h3>Hello, friend!</h3>-->
+					<div class="type-wrap" id="desktop-name">
+    <div class="spacer"></div>
+      <h2 class="font-amatic">I'm<strong class="text-reds"> Mittu Anand.</strong></h2>
+	  <h4 class="font-amatic">an <strong class="text-reds">Information Technology</strong> engineer.</h4>
+    
+		
+  <div id="typed-strings" class="font-josefin" style="height:60px;">
+						 <div class="type-wrap font-josefin	">
+    <span id="typed2" style="white-space:pre;"></span>
+  </div>
+    <span id="typed" style="white-space:pre;"></span>
+		</div>
+		<div class="spacer"></div>
+  </div>
+  
+  <a href="#skills" id="quickSkill" class="btn btn-info text-center font-amatic-s m-b-30"><i class="fa fa-shield"></i> Checkout my skills</a>
+  <button type="button" id="resumeDownload" class="btn btn-warning text-center font-amatic-s m-b-30"><i class="fa fa-download"></i> Download Resume</button>
+  </div>
+  
+
+
+						</div>
+		</div>
+		
+		
+            
+          
+        </div>
+		<div id="about">
+		<div class="row text-center">
+		<div class="spacer"></div>
+		<h4 class="font-amatic color-green m-t-l">A cover letter</h4>
+		 <div class="col-sm-5 text-center m-t-60">
+		 <img src="letter.png"/>
+		 </div>
+		 <div class="col-sm-7 m-t-60 text-dark font-josefin">
+		 <div class="padding-40">
+		 <p class="justify pull-left">
+		 I am a technology aspirant, who madly loves playing around with the super hot web technologies of the hour. 
+It's been almost six <b class="text-dark">SHORT</b> years since I started my journey with 0's and 1's, tasting the salt and sour of different varieties of web development methodologies. 
+Having graduated in <b class="text-dark">Information Technology</b> under Anna university Chennai ,
+I started my career as a Junior Web Developer in one of the largest IT hubs of India, Technopark(Trivandrum).
+</p>
+		 <p class="justify pull-left">
+		 I believe, it will not be fair enough to speak about my career journey, without thanking all those wonderful colleagues/friends,
+who have whole heartedly spent their quality time, for helping me, in growing a <b class="text-dark">confident</b> technical and professional career. Thank you all :)
+		 
+		 </p>
+		 <p class="justify pull-left">
+		 I predominantly work on the <b class="text-dark">web side</b> of Information Technology, with upper hands in the three important layers of web application development process which are
+<b class="text-dark">UI</b> design, <b class="text-dark">BUSINESS</b> logic development and the <b class="text-dark">DATABASE</b> architecture. Hey hold on, I am not just limited to these, I have also expertise in supporting 
+the production environments of an array of large scale applications (especially <b class="text-dark">telecom</b> domain) that runs on different varieties of technology platforms.  
+
+As for me, the thrive of making myself rich with more technology stacks is always important, which pretty much stops the student inside me, from being idle.
+		 </p>
+		 </div></div>
+	    </div>
+		<div class="spacer"></div>
+	</div>
+        <!-- /#page-wrapper -->
+        <div id="skills" class="z-index-3">
+		<div class="row text-center">
+		 <div class="panel-body">
+                         <div class="spacer"></div>
+			<h4 class="font-amatic color-green">My skills</h4>
+		<div class="col-sm-12 m-t-l">
+		 <div class="panel-body font-josefin">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#homef" data-toggle="tab" aria-expanded="false">UI/UX</a>
+                                </li>
+                                <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Web Backend</a>
+                                </li>
+                                <li class=""><a href="#messages" data-toggle="tab" aria-expanded="false">Tools</a>
+                                </li>
+                                <li class=""><a href="#settings" data-toggle="tab" aria-expanded="true">Unix</a>
+                                </li>
+								<li class=""><a href="#misc" data-toggle="tab" aria-expanded="true">Miscellaneous</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade  active in" id="homef">
+                                    <div class="row text-dark">
+									 <div class="col-sm-12">
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>HTML5</h4>
+									 <p class="justify">
+									 HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.
+
+It was published in October 2014 by the World Wide Web Consortium (W3C)to improve the language with support for the latest multimedia, while keeping it both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc.
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Javascript</h4>
+									 <p class="justify">
+									 JavaScript ,often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic,
+									 weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the 
+									 three core technologies of World Wide Web content engineering. It is used to make webpages interactive and provide
+									 online programs, including video games. 
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Jquery</h4>
+									 <p class="justify">
+									 jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.It is free, open-source software using the permissive MIT License.Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications.
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Angular JS</h4>
+									 <p class="justify">
+									 AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. The JavaScript components complement Apache Cordova, a framework used for developing cross-platform mobile apps.
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>CSS</h4>
+									 <p class="justify">
+									 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. It makes visually engaging webpages.
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Bootstrap</h4>
+									 <p class="justify">
+									 Bootstrap is a free and open-source front-end library for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.Bootstrap is the second most-starred project on GitHub, with more than 121,000 stars.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Typescript</h4>
+									 <p class="justify">
+									 TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. Anders Hejlsberg, lead architect of C# and creator of Delphi and Turbo Pascal, has worked on the development of TypeScript.TypeScript may be used to develop JavaScript applications for client-side or server-side (Node.js) execution.
+									 
+									 </p>
+									 </div>
+									   <div class="col-sm-4">
+									 <br>
+									 <h4>Adobe Photoshop</h4>
+									 <p class="justify">
+									 Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for macOS and Windows.
+
+Photoshop was created in 1988 by Thomas and John Knoll. Since then, it has become the de facto industry standard in raster graphics editing, such that the word "photoshop" has become a verb as in "to Photoshop an image," "photoshopping" and "photoshop contest", though Adobe discourages such use.</p>
+									 </div>
+									   <div class="col-sm-4">
+									 <br>
+									 <h4>User Interface Design</h4>
+									 <p class="justify">
+									 User interface design (UI) or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals (user-centered design). </p>
+									 </div>
+									 </div>
+									</div>
+                                   
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                    <div class="row text-dark">
+									 <div class="col-sm-12">
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Core PHP</h4>
+									 <p class="justify">
+									 PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor.
+									 PHP code can be used in combination with various web template systems.
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>PHP on codeigniter</h4>
+									 <p class="justify">
+									 CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.CodeIgniter is loosely based on the popular model–view–controller (MVC) development pattern. While controller classes are a necessary part of development under CodeIgniter, models and views are optional. Codeigniter can be also modified to use Hierarchical Model View Controller (HMVC).
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>PHP on Laravel</h4>
+									 <p class="justify">
+									 Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Python</h4>
+									 <p class="justify">
+									 In technical terms, Python is an object-oriented, high-level programming language with integrated dynamic semantics primarily for web and app development. It is extremely attractive in the field of Rapid Application Development because it offers dynamic typing and dynamic binding options.Python is relatively simple, so it's easy to learn since it requires a unique syntax that focuses on readabilit 
+									 </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Mysql & Maria DB</h4>
+									 <p class="justify">MySQL is an open-source relational database management system (RDBMS).MySQL is a central component of the LAMP open-source web application software stack (and other "AMP" stacks). LAMP is an acronym for "Linux, Apache, MySQL, Perl/PHP/Python".MariaDB is mostly a clone of MySQL, but it also provides several improvements over running the standard MySQL instance. </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Mongo DB</h4>
+									 <p class="justify">
+									 MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas. MongoDB is developed by MongoDB Inc., and is published under a combination of the GNU Affero General Public License and the Apache License.
+									 MongoDB supports field, range queries, regular expression searches.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Joomla</h4>
+									 <p class="justify">
+									 Joomla! is a free and open-source content management system (CMS) for publishing web content. It is built on a model–view–controller web application framework that can be used independently of the CMS.
+
+Joomla! is written in PHP, uses object-oriented programming (OOP) techniques (since version 1.5) and software design patterns, stores data in a MySQL, MS SQL (since version 2.5), or PostgreSQL (since version 3.0) database.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Wordpress</h4>
+									 <p class="justify">
+									 WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. To function, WordPress has to be installed on a web server, which would either be part of an Internet hosting service or a network host in its own right. An example of the first scenario may be a service like WordPress.com, for example, and the second case could be a computer running the software package WordPress.org. 
+									 </p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Drupal</h4>
+									 <p class="justify">Drupal a free and open source content-management framework written in PHP and distributed under the GNU General Public License. Drupal provides a back-end framework for at least 2.3% of all web sites worldwide – ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration. Drupal community is composed of more than 1.3 million members.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Prestashop</h4>
+									 <p class="justify">PrestaShop is a freemium, open source e-commerce solution. The software is published under the Open Software License (OSL). It is written in the PHP programming language with support for the MySQL database management system.
+
+PrestaShop is currently used by 250,000 shops worldwide and is available in 60 different languages.PrestaShop has more than three hundred built-in features for managing product listing, payments, shipping, manufacturers and suppliers.
+</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>OScommerce</h4>
+									 <p class="justify">OsCommerce (styled "osCommerce" - "open source Commerce") is an e-commerce and online store-management software program. It can be used on any web server that has PHP and MySQL installed. It is available as free software under the GNU General Public License. OsCommerce was started in March 2000 in Germany by project founder and leader Harald Ponce de Leon as The Exchange Project.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Magento</h4>
+									 <p class="justify">Magento is an open-source e-commerce platform written in PHP. The software was originally developed by Varien, Inc, a US private company headquartered in Culver City, California, with assistance from volunteers.Varien published the first general-availability release of the software on March 31, 2008.Magento 2 introduced the Model-View-ViewModel pattern to its front-end code using the JavaScript library Knockout.js.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Node Js</h4>
+									 <p class="justify">Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML, to be run client-side by a JavaScript engine in the user's web browser. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.</p>
+									 </div>
+									 </div>
+									</div>
+                                   
+							   </div>
+                                <div class="tab-pane fade" id="messages">
+                                   <div class="row text-dark">
+									 <div class="col-sm-12">
+									      <div class="col-sm-4">
+									 <br>
+									 <h4>Docker</h4>
+									 <p class="justify">Docker is a computer program that performs operating-system-level virtualization.It was first released in 2013 and is developed by Docker, Inc.
+
+Docker is used to run software packages called containers. Containers are isolated from each other and bundle their own application, tools, libraries and configuration files; they can communicate with each other through well-defined channels. All containers are run by a single operating-system kernel.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Jenkins</h4>
+									 <p class="justify">Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
+</p>
+<p>Jenkins can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Microsoft visual Studio</h4>
+									 <p class="justify">Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Eclispse</h4>
+									 <p class="justify">The Eclipse Foundation is a 501(c)(6) not-for-profit, member supported corporation that acts as the steward of Eclipse, an open source community working to build a development platform consisting of the frameworks, tools and run-times needed for "building, deploying and managing software across the lifecycle." The most well-known of the Eclipse projects is the Eclipse platform, a multi-language software development environment and IDE.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Netbeans</h4>
+									 <p class="justify">NetBeans is an integrated development environment (IDE) for Java. NetBeans allows applications to be developed from a set of modular software components called modules. NetBeans runs on Microsoft Windows, macOS, Linux and Solaris. In addition to Java development, it has extensions for other languages like PHP, C, C++ and HTML5., Javadoc and Javascript. Applications based on NetBeans, including the NetBeans IDE, can be extended by third party developers.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Bitbucket</h4>
+									 <p class="justify">Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use 
+									 either Mercurial (since launch) or Git (since October 2011) revision control systems. Bitbucket offers both commercial plans and free accounts. 
+									 It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of
+									 September 2010.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>GIT</h4>
+									 <p class="justify">
+									 Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.Git is a free and open source software.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>SVN</h4>
+									 <p class="justify">Apache Subversion (often abbreviated SVN, after its command name svn) is a software versioning and revision control system distributed as open source under the Apache License. Software developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation. Its goal is to be a mostly compatible successor to the widely used Concurrent Versions System (CVS).</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>JIRA</h4>
+									 <p class="justify">
+									 Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. The product name is a truncation of Gojira, the original Japanese word that was anglicised to Godzilla, itself a reference to Jira's main competitor, Bugzilla. It has been developed since 2002. According to one ranking method, as of June 2017, Jira is the most popular issue management tool.</p>
+									 </div>
+									   <div class="col-sm-4">
+									 <br>
+									 <h4>Confluence</h4>
+									 <p class="justify">
+									 Confluence is a team collaboration software. Written in Java and mainly used in corporate environments, it is developed and marketed by Atlassian. Confluence is sold as either on-premises software or as software as a service. Confluence includes set up CSS templates for styles and formatting for all pages, including those imported from Word documents. Built in search allows queries by date, the page’s author, and content type such as graphics.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>VmWare Horizon</h4>
+									 <p class="justify">
+									 VMware Horizon 7 is the leading platform for virtual desktops and applications.Transform static desktops into secure, digital workspaces that can be delivered on demand. Provision virtual or remote desktops and applications through a single VDI and app virtualization platform to streamline management and easily entitle end users.Provide end users access to all of their virtual desktops, applications, and online services through a single digital workspace.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>TFS</h4>
+									 <p class="justify">
+									 Team Foundation Server (commonly abbreviated to TFS) is a Microsoft product that provides source code management (either with Team Foundation Version Control or Git), reporting, requirements management, project management (for both agile software development and waterfall teams), automated builds, lab management, testing and release management capabilities. It covers the entire application lifecycle, and enables DevOps capabilities.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>AWS Cloud9</h4>
+									 <p class="justify">WS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes prepackaged with essential tools for popular programming languages, including JavaScript, Python, PHP, and more, so you don’t need to install files or configure your development machine to start new projects.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>XAMP/WAMP</h4>
+									 <p class="justify">
+									 XAMPP is a free and open source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. XAMPP stands for Cross-Platform (X), Apache (A), MariaDB (M), PHP (P) and Perl (P).It is a simple, lightweight Apache distribution that makes it extremely easy for developers to create a local web server.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Postman</h4>
+									 <p class="justify">
+									 Postman makes API development faster, easier, and better. The free app is used by more than 3.5 million developers and 30,000 companies worldwide. Postman is designed with the developer in mind, and packed with features and options.
+Powerful, simple to use GUI
+Saved history of API requests
+Unlimited collections, environments, tests, and sharing
+Automated testing with collection runner
+Web-viewable, detailed API documentation
+Flexible API monitoring, for uptime, performance, and accuracy
+Mock servers, to support split-stack development.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Fiddler</h4>
+									 <p class="justify">Fiddler is an HTTP debugging proxy server application written by Eric Lawrence, formerly a Program Manager on the Internet Explorer development team at Microsoft. Fiddler captures HTTP and HTTPS traffic and logs it for the user to review (the latter by implementing man-in-the-middle interception using self-signed certificates).Fiddler can also be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as it is being sent or received. By default, traffic from Microsoft's WinINET HTTP(S) stack is automatically directed to the proxy at runtime, but any browser or Web application (and most mobile devices) can be configured to route its traffic through Fiddler.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Firebug</h4>
+									 <p class="justify">
+									 Firebug is a discontinued free and open-source web browser extension for Mozilla Firefox that facilitated the live debugging, editing, and monitoring of any website's CSS, HTML, DOM, XHR, and JavaScript.
+
+Firebug was licensed under the BSD license and was initially written in January 2006 by Joe Hewitt, one of the original Firefox creators. The Firebug Working Group oversees the open source development and extension of Firebug. It had two major implementations: an extension for Mozilla Firefox and a bookmarklet implementation called Firebug Lite which can be used with Google Chrome.</p>
+									 </div>
+									 </div>
+									</div>
+							   </div>
+                                <div class="tab-pane fade" id="settings">
+<div class="row text-dark">
+									 <div class="col-sm-12">
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>LINUX Support</h4>
+									 <p class="justify">
+									 Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Apache Support</h4>
+									 <p class="justify">The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.
+
+The Apache HTTP Server ("httpd") was launched in 1995 and it has been the most popular web server on the Internet since April 19.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Bash Scripting</h4>
+									 <p class="justify">Bash is the GNU Project's shell. Bash is the Bourne Again SHell. Bash is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh). It is intended to conform to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard. It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.</p>
+									 </div>
+									   <div class="col-sm-4">
+									 <br>
+									 <h4>EMAIL ISP support</h4>
+									 <p class="justify">
+									 ISP stands for Internet Service Provider. When we're talking email marketing, ISP refers to the major email providers: AOL, Hotmail, Outlook, Yahoo, Gmail, Comcast, and so on.
+
+Their customers are commonly your email recipients. It's the job of the ISP to protect their customers receiving unwanted or unsolicited emails. Expertise in Webmails, SMTP concepts, MX/MTA/MUA, Spam Management, ASSP, CISCO Ironports etc.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Web Hosting Support</h4>
+									 <p class="justify">
+									 Web hosting is a service that allows organizations and individuals to post a website or web page onto the Internet. A web host, or web hosting service provider, is a business that provides the technologies and services needed for the website or webpage to be viewed in the Internet. Websites are hosted, or stored, on special computers called servers.When Internet users want to view your website, all they need to do is type your website address or domain into their browser.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>CISCO Ironport Support</h4>
+									 <p class="justify">
+									 The Cisco Ironport is an appliance that is deployed into an existing mail infrastructure. All emails are sent to the IronPort and the IronPort is either the last point out (most common configuration) or it can process email and then send it back to the mail server where it is sent out.It protects your business from inbound threats, and control and encrypt sensitive outbound email. Reduce investigation and response times with real-time information, and keep consistent policies on premises and in the cloud.</p>
+									 </div>
+									 </div>
+									 
+									</div>
+							   </div>
+							      <div class="tab-pane fade" id="misc">
+<div class="row text-dark">
+									 <div class="col-sm-12">
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>RESTful Webservice</h4>
+									 <p class="justify">
+									 RESTful web services are built to work best on the Web. Representational State Transfer (REST) is an architectural style that specifies constraints, such as the uniform interface, that if applied to a web service induce desirable properties, such as performance, scalability, and modifiability, that enable services to work best on the Web. In the REST architectural style, data and functionality are considered resources and are accessed using Uniform Resource Identifiers (URIs), typically links on the Web.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>SOAP Protocol</h4>
+									 <p class="justify">SOAP or Simple Object Access Protocol is a protocol designed to exchange information in the form of Web Services. It is primarily based on XML documents exchanged over HTTP, but it's possible to transmit messages through other mediums like email and JMS.SOAP web services are generally based on a a Web Services Description Language or WSDL, which is an XML contract that defines all the data and services offered by a given web service.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>DNS Architecture</h4>
+									 <p class="justify">
+									 Domain Name Servers (DNS) are the Internet's equivalent of a phone book. They maintain a directory of domain names and translate them to Internet Protocol (IP) addresses.
+
+This is necessary because, although domain names are easy for people to remember, computers or machines, access websites based on IP addresses. Information from all the domain name servers across the Internet are gathered together and housed at the Central Registry. </p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Google API's</h4>
+									 <p class="justify">
+									 Google APIs is a set of application programming interfaces (APIs) developed by Google which allow communication with Google Services and their integration to other services. Examples of these include Search, Gmail, Translate or Google Maps. Third-party apps can use these APIs to take advantage of or extend the functionality of the existing services.The APIs provide functionality like analytics, machine learning as a service (the Prediction API) or access to user data (when permission to read the data is given).</p>
+									 </div>
+	 <div class="col-sm-4">
+									 <br>
+									 <h4>Facebook API's</h4>
+									 <p class="justify">
+									 The Graph API is the core of Facebook Platform, enabling developers to read from and write data into Facebook. The Graph API presents a simple, consistent view of the Facebook social graph, uniformly representing objects in the graph (e.g., people, photos, events, and pages) and the connections between them (e.g., friend relationships, shared content, and photo tags).Facebook authentication enables developers’ applications to interact with the Graph API on behalf of Facebook users.</p>
+									 </div>
+	 <div class="col-sm-4">
+									 <br>
+									 <h4>Wikipedia API's</h4>
+									 <p class="justify">
+									 The MediaWiki action API is a web service that provides convenient access to wiki features, data, and meta-data over HTTP, via a URL usually at api.php. Clients request particular "actions" by specifying an action parameter, mainly action=query to get information. It was known as the MediaWiki API, but there are now other web APIs available that connect to MediaWiki such as RESTBase and the Wikidata query service.It provides direct, high-level access to the data contained in MediaWiki databases.</p>
+									 </div>
+	 <div class="col-sm-4">
+									 <br>
+									 <h4>Mailchimp API's</h4>
+									 <p class="justify">
+									 MailChimp is a marketing automation platform and an email marketing service and a trading name of its operator, Rocket Science Group, an American company founded in 2001.MailChimp began as a paid service and added a freemium option in 2009. Within a year its user base had grown from 85,000 to 450,000. By June 2014, it was sending over 10 billion emails per month on behalf of its users.</p>
+									 </div>
+	<div class="col-sm-4">
+									 <br>
+									 <h4>Roundcube Webmail</h4>
+									 <p class="justify">
+									 Roundcube is a web-based IMAP email client. Roundcube's most prominent feature is the pervasive use of Ajax technology. After about two years of development, the first stable release of Roundcube was announced in early 2008.Roundcube is written in PHP and can be employed in conjunction with a LAMP "stack", or any other operating systems that support PHP are supported as well.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>CRM's</h4>
+									 <p class="justify">
+									 Customer relationship management (CRM) is an approach to manage a company's interaction with current and potential customers. It uses data analysis about customers' history with a company to improve business relationships with customers, specifically focusing on customer retention and ultimately driving sales growth.Strategic CRM is focused upon the development of a customer-centric business culture.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>WHMC's</h4>
+									 <p class="justify">
+									 WHMCS is an all-in-one client management, billing & support solution for online businesses. Handling everything from signup to termination, WHMCS is a powerful business automation tool that puts you firmly in control.Features includes Automated Recurring Billing
+Automated Account Creation, Suspension & Termination
+Integrated Client Support Center including Support Tickets and Knowledge Base
+Payment Tracking and Statistical Reports etc.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>Basics of Phonegap</h4>
+									 <p class="justify">
+									 Apache Cordova (formerly PhoneGap) is a mobile application development framework originally created by Nitobi. Adobe Systems purchased Nitobi in 2011, rebranded it as PhoneGap, and later released an open source version of the software 
+									 called Apache Cordova. Apache Cordova enables software programmers to build applications for mobile devices using CSS3,
+									 HTML5, and JavaScript instead of relying on platform-specific APIs.</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Basics of Ionic Framework</h4>
+									 <p class="justify">
+									 Ionic is a complete open-source SDK for hybrid mobile app development. The original version was released in 2013 and built on top of AngularJS and Apache Cordova. The more recent releases, known as Ionic 3 or simply "Ionic", are built on Angular. Ionic provides tools and services for developing hybrid mobile apps using Web technologies like CSS, HTML5, and Sass. Ionic provides all the functionality which can be found in native mobile development .</p>
+									 </div>
+									  <div class="col-sm-4">
+									 <br>
+									 <h4>Google Material Design</h4>
+									 <p class="justify">
+									 Material Design (codenamed Quantum Paper) is a design language developed in 2014 by Google. Expanding upon the "card" motifs that debuted in Google Now, Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows. Google announced Material Design on June 25, 2014, at the 2014 Google I/O conference.</p>
+									 </div>
+									 <div class="col-sm-4">
+									 <br>
+									 <h4>SEO (Schema.Org)</h4>
+									 <p class="justify">
+									 Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.
+
+Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model.</p>
+									 </div>
+									 </div>
+									</div>
+							   </div>
+                            </div>
+                        </div>
+		</div>
+		
+		</div>
+		
+		</div>
+    </div>
+	<div id="experience">
+		<div class="row text-center">
+		 <div class="panel-body">
+                         <div class="spacer"></div>
+			<h4 class="font-amatic color-green">Work Experience</h4>
+		<div class="col-sm-12 m-t-l">
+		<div class="panel-body text-dark font-josefin">
+		<div class="row">
+		<div class="col-sm-4">
+		 <img src="nocme.png" class="img-exp m-b-30">
+		</div>
+		<div class="col-sm-8">
+		  <div class="table-responsive">
+                                 <table class="table table-striped">
+                                 
+                                    <tbody>
+                                        <tr>
+                                            <td><i class="fa fa-clock-o fa-fw"></i> Duration</td>
+                                            <td>2012 May-2012 September</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-newspaper-o fa-fw"></i> Designation</td>
+                                            <td>Junior Software Engineer</td>
+                                
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-folder-open-o fa-fw"></i> Projects</td>
+                                            <td><b class="pull-left">myappointments.ae</b> <br>	<p></p>
+											<p class="justify">Myappointments.ae is an online portal where you can have hassle free scheduling and
+appointment bookings for various categories, developed for an UAE based company.
+The portal lets you book appointments in a time that is convenient for you and the users can
+search for required services based on several customizable criteria.</p>
+<p>URL: Not live anymore</P>
+<p>
+<span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span>
+</p>
+											</td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+							</div></div>
+							<hr>
+							<div class="row">
+		<div class="col-sm-4">
+		 <img src="grapelime.png" class="img-exp m-b-30">
+		</div>
+		<div class="col-sm-8">
+		  <div class="table-responsive">
+                                 <table class="table table-striped">
+                                 
+                                    <tbody>
+                                         <tr>
+                                            <td><i class="fa fa-clock-o fa-fw"></i> Duration</td>
+                                            <td>2012 October-2015 October</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-newspaper-o fa-fw"></i> Designation</td>
+                                            <td>Software Engineer</td>
+                                
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-folder-open-o fa-fw"></i> Projects</td>
+                                            <td><b class="pull-left">Responseloop</b> <br>	<p></p>
+											<p class="justify">Responseloop, is one of the best project I have worked on in terms of technical exposure.
+											Responseloop is a Comprehensive Application Suite that simplifies the
+common team collaboration, processes and customer relation workflow and provide accurate
+predictions and team behavior metrics for Small and Medium Businesses. Responseloop was opened to international market by the company and was successfully implemented in multiple client businesses.
+The Web part of the project is developed using PHP on an inhouse framework with
+ajax,jquery,mysql,html5 and css.</p>
+<p>URL: http://app.responseloop.com/app/signup</p>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+<b class="pull-left">Highrisehq</b> <br>	<p></p>
+											<p class="justify">Highrise is a simple just another powerful CRM for small business with features like sharing
+contacts, setting tasks, tracking them, setting reminders, work management, importing contacts
+from email systems etc. Highrise is the just-right, more thoughtful way to keep track of the
+people, conversations, and tasks that are the lifelines of any business.</p>
+<p>URL: https://highrisehq.com/</p>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+
+<b class="pull-left">Keypoint Survey</b> <br>	<p></p>
+											<p class="justify">An intranet Survey tool, as the name suggests, is an online portal developed for a company
+called keypoint, which is intended to make easy surveys and easy management of the same.
+End users of the application are the employees of the company and their clients.
+Keypoint survey tool has various features to create surveys, send it to employees/customers,
+make multi linked questionnaires and generate various reports.</p>
+<p>URL: Intranet Portal</p>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+
+<b class="pull-left">Happyweddings.net</b> <br>	<p></p>
+											<p class="justify">Happyweddings is a free online wedding planner portal based in Hyderabad, India. It will connect
+users with the best wedding planners in India in a 24 hours span. The application covers all the
+associated event management packages.</p>
+<p>URL: Not live anymore</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+<b class="pull-left">99buzz.com</b> <br><p></p>	
+											<p class="justify">99Buzz.Com is a powerful and dynamic Integrated Media shop which facilitates easy and anytime
+communication with customers through various means. 99Buzz combines the varied mediums of
+communication and technology to which lets you create Email, SMS and Digital Marketing
+Campaign.</p>
+<p>URL: Not live anymore</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+<b class="pull-left">Inport</b> <br><p></p>	
+											<p class="justify">Inport is an intranet HR management system developed for Grapelime Infotech.
+The system lets the Management to have complete control over HR areas like employee
+management, leave management , client and project details etc.</p>
+<p>URL: Intranet Portal</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+<b class="pull-left">Caribfolks.com</b> <br><p></p>	
+											<p class="justify">caribfolks is a huge social networking website which was developed for the people of
+caribbean. The website was developed following old coding standards based on core php. I was
+supposed to make new customizations and changes to the website as demanded by the client. I
+got to deal with 3 phases of customization in caribfolks.</p>
+<p>URL: Not live anymore</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+<b class="pull-left">Localae</b> <br><p></p>	
+											<p class="justify">Localae is an application developed in core PHP which is an online barter system. This project
+was developed for a UAE company.Localae creates a platform for the people of Dubai to make
+exchange of products (products can be anything from a pin to truck) online. End users can swap
+products with other products as well as cash.</p>
+<p>URL: Not live anymore</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></p>
+</td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+							</div></div>
+							<hr>
+							<div class="row">
+		<div class="col-sm-4">
+		 <img src="astraea.png" class="img-exp m-b-30">
+		</div>
+		<div class="col-sm-8">
+		  <div class="table-responsive">
+                                 <table class="table table-striped">
+                                 
+                                    <tbody>
+                                        <tr>
+                                            <td><i class="fa fa-clock-o fa-fw"></i> Duration</td>
+                                            <td>2015 October-2016 April</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-newspaper-o fa-fw"></i> Designation</td>
+                                            <td>Senior Web Developer</td>
+                                
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-folder-open-o fa-fw"></i> Projects</td>
+                                            <td><b class="pull-left">Pretty Web Inc</b> <br><p></p>	
+											<p class="justify">Pretty Web Inc is a an application that let you create awesome,professional and creative
+websites using a highly flexible and easy going drag and drop interface system. Anyone at any
+skill level can create a fully functional website with PWI. I have worked on multiple modules of this project, primarily taking control of themes and layouts which covers a vital part of core logic.</p>
+<p>URL: Not live anymore</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></P>
+<b class="pull-left">Hostednetworks.com.au</b> <br>	<p></p>
+											<p class="justify">Hosted Network is a Sydney based white label Cloud Service Provider (CSP). Application focus on empowering their Select Partners with leading cloud solutions without burdening their own time, money, and expertise.</p>
+<p>URL: https://www.hostednetwork.com.au/</P>
+<p><span class="label-span">PHP</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span>
+<span class="label-span">Cpanel Integration</span>
+<span class="label-span">Vcloud Integration</span>
+<span class="label-span">WHMCS Integration</span>
+</p>
+</td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+							</div></div>
+							<hr>
+							<div class="row">
+		<div class="col-sm-4">
+		 <img src="infy.png" class="img-exp m-b-30">
+		</div>
+		<div class="col-sm-8">
+		  <div class="table-responsive">
+                                 <table class="table table-striped">
+                                 
+                                    <tbody>
+                                      <tr>
+                                            <td><i class="fa fa-clock-o fa-fw"></i> Duration</td>
+                                            <td>2016 April-Till date</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-newspaper-o fa-fw"></i> Designation</td>
+                                            <td>Technology Analyst</td>
+                                
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa fa-folder-open-o fa-fw"></i> Projects</td>
+                                           <td><b class="pull-left">CAR Dealer Management Software</b> <br>	<p></p>
+											<p class="justify">This was a huge project which opened me an exposure towards the front end technology angular.JS. This dealer management system was developed for one of 
+											the leading CAR manufacturing companies in the world. Application is a centralized 'calendar based' resource and service management tool, to be implemented across different dealer showrooms of the company. Technically, the project was developed using angular on typescript in the frontend and .net in the backend. </p>
+<p>URL: Intranet</P>
+<p><span class="label-span">Angular Js</span> 
+<span class="label-span">Jquery</span>
+<span class="label-span">HTML</span>
+<span class="label-span"> CSS</span>
+<span class="label-span">AJAX</span></P>
+<b class="pull-left">Telecom Operational Support</b> <br>	<p></p>
+											<p class="justify">
+											With an aspiration I always had in understanding other IT aspects, keeping aside development, I opted to work on the UNIX operational support side of one of the leading telecom companies in the world. I was assigned to maintain & support two completely different Email ISP stacks of the company, which was having more than two million customer base.
+											</p>
+<p>URL: N/A</P>
+<p><span class="label-span">Unix</span> 
+<span class="label-span">Web Hosting</span>
+<span class="label-span">Email Platform Support</span>
+<span class="label-span"> CISCO Ironports</span>
+<span class="label-span">Telecom CMS support</span>
+</p>
+</td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+							</div></div>
+                        </div>
+		</div>
+		
+		</div>
+		
+		</div>
+    </div>
+	<div id="academics">
+		<div class="row">
+		 <div class="panel-body">
+                         <div class="spacer"></div>
+			<h4 class="font-amatic color-green text-center">Academics</h4>
+		<div class="col-sm-12 m-t-l text-dark font-josefin">
+		<div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Marks in %</th>
+                                            <th>Year of Completion</th>
+                                            <th>Board/University</th>
+                                            <th>Institution</th>
+											<th>Course</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>74%</td>
+                                            <td>2012</td>
+                                            <td>Anna University</td>
+                                            <td>IJC Engineering (I.T)</td>
+											<td>Graduation in Information Technology</td>
+                                        </tr>
+                                        <tr>
+                                            <td>70%</td>
+                                            <td>2008</td>
+                                            <td>CBSE</td>
+                                            <td>VNSSN School</td>
+											<td>HSE</td>
+                                        </tr>
+                                        <tr>
+                                            <td>73.5%</td>
+                                            <td>2006</td>
+                                            <td>CBSE</td>
+                                            <td>IJVM School</td>
+											<td>SSLC</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+		</div>
+		
+		</div>
+	    </div>
+		<div class="spacer"></div>
+	</div>
+	<div id="contact">
+		<div class="row">
+		<div class="spacer"></div>
+		<h4 class="font-amatic color-green m-t-l text-center">Get in touch with me</h4>
+		 <div class="col-sm-5 text-center m-t-60">
+		 <img src="contact.png"/>
+		 </div>
+		 <div class="col-sm-5 m-t-60 text-dark font-josefin">
+		 <div class="panel-body font-amatic-s">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-building-o fa-fw color-green"></i>Address
+                                    <span class="pull-right text-muted small">1P,135 Victopia
+                                    </span>
+                                </a>
+								 <a href="#" class="list-group-item">
+                                    <i class="fa fa-institution fa-fw text-dark"></i>City
+                                    <span class="pull-right text-muted small">Auckland
+                                    </span>
+                                </a>
+                               
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-envelope fa-fw color-green"></i> Email
+                                    <span class="pull-right text-muted small">mittu.kytes@gmail.com
+                                    </span>
+                                </a>
+								 <a href="#" class="list-group-item">
+                                    <i class="fa fa-phone-square fa-fw text-dark"></i> Phone
+                                    <span class="pull-right text-muted small">022 3011452
+                                    </span>
+                                </a>
+								<a href="#" class="list-group-item">
+                                    <i class="fa fa-users fa-fw color-green"></i> Social
+                                    <span class="pull-right small">
+									<i class="fa fa-facebook-square fb-click" onclick="window.open('https://www.facebook.com/mittu.anand.18','_blank');"></i>/
+									<i class="fa fa-linkedin in-click text-yellow" onclick="window.open('https://www.linkedin.com/in/mittu-anand-a0639585/','_blank');"></i>
+                                    </span>
+                                </a>
+                            </div>
+                          
+                        </div>
+		 </div>
+	    </div>
+		<div class="spacer"></div>
+	</div>
+	<div id="page-wrapper-sixth">
+		<div class="row text-center text-dark font-josefin"><div class="col-sm-12">
+		<p class="m-t-30 m-b-30 p-10"><b class="textr-dark">MITTUANAND.COM</b> [2018]. Designed and developed by <b>Mittu Anand</b>.</p>
+		<a href="#" class="scroll-up font-amatic text-dark">Go to Top <i class="fa fa-arrow-circle-o-up fa-1x color-green" aria-hidden="true"></i> </a>
+		</div>
+		</div>
+		
+	</div>	
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="vendor/raphael/raphael.min.js"></script>
+    <script src="vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="dist/js/sb-admin-2.js"></script>
+     <script src="typed.js"></script>
+	 <script src="demos.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	 <script>
+	 $( ".menu-nav li" ).click(function() {
+	 
+	if($(this).attr('class')=='home'){
+	var key='#wrapper';
+	}else{
+	 var key = '#'+$(this).attr('class');
+	 }
+	 $('.menu-nav li a').removeAttr('class','nav-active');
+	 $(this).children('a').attr('href',key).slideDown();
+	 $(this).children('a').attr('class','nav-active');
+	 
+	  $( ".homeWrapper").slideDown( "slow", function() {
+		// Animation complete.
+	  });
+	});
+	$("#resumeDownload").click(function() {
+    // // hope the server sets Content-Disposition: attachment!
+    window.location = 'mittuResume.docx';
+});
+$('#quickSkill').click(function(){
+$('.skills').trigger('click');
+
+});
+
+$(".scroll-up").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+
+	 </script>
+	 <script>hljs.initHighlightingOnLoad();</script>
+	 <script src="particles.js"></script>
+<script src="app.js"></script>
+
+<!-- stats.js -->
+<script src="stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+</body>
+
+</html>

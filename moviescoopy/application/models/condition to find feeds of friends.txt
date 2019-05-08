@@ -1,0 +1,16 @@
+SELECT U.name, U.email, D.shareid, D.shreditemid, D.shares
+FROM users U, shares D, loops F
+WHERE
+D.sharedby = U.uid
+AND
+
+CASE
+WHEN F.userid = '9'
+THEN F.friendid = D.sharedby
+WHEN F.friendid= '9'
+THEN F.userid= D.sharedby
+END
+
+AND
+F.accepted = '2'
+ORDER BY D.shareid DESC;

@@ -1,0 +1,110 @@
+[25-Sep-2018 12:21:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:23:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:25:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:25:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:35:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:35:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:35:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Sep-2018 12:35:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(346): DB(Array, true)
+#3 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/Loader.php(291): CI_Loader->database('', false, true)
+#4 /home/y5vhbmp7fqzi/public_html/moviescoopy/application/controllers/home.php(8): CI_Loader->model('user_model', 'user_model', '')
+#5 /home/y5vhbmp7fqzi/public_html/moviescoopy/system/core/CodeIgniter.php(308): Home->__construct()
+#6 /home/y5vhbmp7fqzi/public_html/moviescoopy/index.php(202): require_once('/home/y5vhbmp7f...')
+#7 {main}
+  thrown in /home/y5vhbmp7fqzi/public_html/moviescoopy/system/database/drivers/mysql/mysql_driver.php on line 91
